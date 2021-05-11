@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>NeedIt onLoad Example</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   alert("Thank you for loading the NeedIt form.   When you close this alert you will be able to interact with the form.");
+	g_form.addDecoration('short_description','icon-star','Details','color-red');
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-02-08 17:07:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>139133b10fb43200cd674f8ce1050efb</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>NeedIt onLoad Example</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_139133b10fb43200cd674f8ce1050efb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-11 06:42:20</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>19722fb5db7c9050566750b6f4961978</instance_id>
+        <instance_name>dev103743</instance_name>
+        <name>sys_script_client_139133b10fb43200cd674f8ce1050efb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;active&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;NeedIt onLoad Example&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   alert("Thank you for loading the NeedIt form.   When you close this alert you will be able to interact with the form.");
+	g_form.addDecoration('short_description','icon-star','Details','color-red');
+	
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-02-08 17:07:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;139133b10fb43200cd674f8ce1050efb&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;NeedIt onLoad Example&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_139133b10fb43200cd674f8ce1050efb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-05-11 06:42:20&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1093111101</payload_hash>
+        <record_name>NeedIt onLoad Example</record_name>
+        <reverted_from/>
+        <source>8941cf952f843010b5042b5df699b671</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-11 06:42:20</sys_created_on>
+        <sys_id>b972d7692f807010b5042b5df699b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1795a2982120000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-11 06:42:20</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>f172d769a28070101572177c63d69efb</update_guid>
+        <update_guid_history>f172d769a28070101572177c63d69efb:-1093111101,ce629f69f180701076da7b2a24648117:235806243,c2d1db29118070107a7962107e673af5:1724224930,c3b19765d4807010ad3b18de08bd84c0:-1051820724,bd91db65438070102cac134c6ef5afcf:-1394792483,bb615369df807010d6dd8ab678e9f568:-598985246,871d03a526807010587a54838cdf5901:26026006,b3ec47254d8070101c3a684800f42a5d:178652733,8d5c4325d7807010a8ac60df5852c0f4:26026006,a9564bede34070105d327033d51b502b:-1871480029</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-11 10:20:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>168561ff56f549ff820b2bb49af230a9</sys_id>
+        <sys_metadata>139133b10fb43200cd674f8ce1050efb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt onLoad Example</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">71b6ab512f083010b5042b5df699b6ed</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_139133b10fb43200cd674f8ce1050efb</sys_update_name>
+        <sys_update_version display_value="sys_script_client_139133b10fb43200cd674f8ce1050efb">b972d7692f807010b5042b5df699b6fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-11 10:20:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
